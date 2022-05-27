@@ -1,6 +1,3 @@
-from telnetlib import PRAGMA_HEARTBEAT
-
-
 a = input("請選擇主餐及升級的套餐:").split(" ")
 b = str(input("是否升級成大杯飲料:"))
 c = str(input("是否換成大薯:"))
