@@ -9,3 +9,5 @@ elif look in book2:
     for i in range(len(book2)):
         if look == book2[i]:
             print("在書架B的第",(i+1),"本")
+else:
+    print("查無此書籍")
