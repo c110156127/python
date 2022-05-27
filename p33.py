@@ -1,0 +1,10 @@
+a = int(input("國文:"))
+b = int(input("英文:"))
+c = int(input("微積分:"))
+d = int(input("體育:"))
+e = int(input("程式設計:"))
+number = [a,b,c,d,e]
+avg = round((a+b+c+d+e)/5,1)
+print("平均分數",avg)
+print("程式設計",max(number))
+print("微積分",min(number))
