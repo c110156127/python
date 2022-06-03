@@ -25,3 +25,4 @@ if a1 != 0 and b1 != 0 and (a-b) == 2 or (a-b) == -2:
     print("Y")
 else:
     print("N")
+

@@ -6,7 +6,7 @@ b1 = b.split(" ")
 
 total = 0
 
-for i in range(len(a1)):
+for i in range(len(a1)):      #range不能放list 
     for j in range(len(b1)):
         if a1[i] == b1[j]:
             total = total + 1
